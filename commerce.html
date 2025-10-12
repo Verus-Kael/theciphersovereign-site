@@ -25,29 +25,77 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 
-  <!-- JSON-LD Structured Data Example -->
+  <!-- JSON-LD Structured Data: Multi-product ItemList -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org/",
-    "@type": "Product",
-    "name": "GrapheneOS Hardened Phone",
-    "image": [
-      "https://theciphersovereign.com/images/grapheneos-phone.jpg"
-    ],
-    "description": "A de-Googled, privacy-first smartphone preloaded with GrapheneOS. Offered through The Cipher Sovereign Commerce Capsule.",
-    "sku": "GOS-001",
-    "brand": {
-      "@type": "Brand",
-      "name": "The Cipher Sovereign"
-    },
-    "offers": {
-      "@type": "Offer",
-      "url": "https://affiliate-link-here.com",
-      "priceCurrency": "GBP",
-      "price": "799.00",
-      "availability": "https://schema.org/InStock",
-      "itemCondition": "https://schema.org/NewCondition"
-    }
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "The Cipher Sovereign Commerce Capsule",
+    "description": "Privacy-first products, encrypted coaching tools, and sovereign commerce flows curated by The Cipher Sovereign.",
+    "url": "https://theciphersovereign.com/commerce.html",
+    "numberOfItems": 3,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "GrapheneOS Hardened Phone",
+          "image": "https://theciphersovereign.com/images/grapheneos-phone.jpg",
+          "description": "A de-Googled, privacy-first smartphone preloaded with GrapheneOS.",
+          "sku": "GOS-001",
+          "brand": { "@type": "Brand", "name": "The Cipher Sovereign" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://affiliate-link-phone.com",
+            "priceCurrency": "GBP",
+            "price": "799.00",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "VPN Subscription",
+          "image": "https://theciphersovereign.com/images/vpn.jpg",
+          "description": "A sovereign VPN service with DNS filtering and zero logs.",
+          "sku": "VPN-001",
+          "brand": { "@type": "Brand", "name": "The Cipher Sovereign" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://affiliate-link-vpn.com",
+            "priceCurrency": "GBP",
+            "price": "9.99",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Privacy Gear Bundle",
+          "image": "https://theciphersovereign.com/images/privacy-bundle.jpg",
+          "description": "A curated kit of privacy-first tools and analog ritual gear.",
+          "sku": "PRIV-001",
+          "brand": { "@type": "Brand", "name": "The Cipher Sovereign" },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://affiliate-link-privacy.com",
+            "priceCurrency": "GBP",
+            "price": "149.00",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition"
+          }
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -69,20 +117,36 @@
 
   <main>
     <section>
-      <h2>Featured Product</h2>
-      <p><strong>GrapheneOS Hardened Phone</strong></p>
+      <h2>GrapheneOS Hardened Phone</h2>
       <img src="images/grapheneos-phone.jpg" alt="GrapheneOS Hardened Phone" style="max-width:300px; margin:1rem auto; display:block;">
-      <p>A de-Googled, privacy-first smartphone preloaded with GrapheneOS. Offered through The Cipher Sovereign Commerce Capsule.</p>
+      <p>A de-Googled, privacy-first smartphone preloaded with GrapheneOS.</p>
       <p>
-        <a href="https://affiliate-link-here.com" rel="nofollow sponsored" target="_blank">
+        <a href="https://affiliate-link-phone.com" rel="nofollow sponsored" target="_blank">
           🔗 Secure Affiliate Link
         </a>
       </p>
     </section>
 
     <section>
-      <h2>Coming Soon</h2>
-      <p>More privacy-first products, encrypted coaching tools, and sovereign commerce flows will be added here.</p>
+      <h2>VPN Subscription</h2>
+      <img src="images/vpn.jpg" alt="VPN Subscription" style="max-width:300px; margin:1rem auto; display:block;">
+      <p>A sovereign VPN service with DNS filtering and zero logs.</p>
+      <p>
+        <a href="https://affiliate-link-vpn.com" rel="nofollow sponsored" target="_blank">
+          🔗 Secure Affiliate Link
+        </a>
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy Gear Bundle</h2>
+      <img src="images/privacy-bundle.jpg" alt="Privacy Gear Bundle" style="max-width:300px; margin:1rem auto; display:block;">
+      <p>A curated kit of privacy-first tools and analog ritual gear.</p>
+      <p>
+        <a href="https://affiliate-link-privacy.com" rel="nofollow sponsored" target="_blank">
+          🔗 Secure Affiliate Link
+        </a>
+      </p>
     </section>
   </main>
 
