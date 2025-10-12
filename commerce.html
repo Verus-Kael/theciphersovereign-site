@@ -24,6 +24,32 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD Structured Data Example -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "GrapheneOS Hardened Phone",
+    "image": [
+      "https://theciphersovereign.com/images/grapheneos-phone.jpg"
+    ],
+    "description": "A de-Googled, privacy-first smartphone preloaded with GrapheneOS. Offered through The Cipher Sovereign Commerce Capsule.",
+    "sku": "GOS-001",
+    "brand": {
+      "@type": "Brand",
+      "name": "The Cipher Sovereign"
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://affiliate-link-here.com",
+      "priceCurrency": "GBP",
+      "price": "799.00",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition"
+    }
+  }
+  </script>
 </head>
 <body>
   <header>
@@ -43,8 +69,20 @@
 
   <main>
     <section>
+      <h2>Featured Product</h2>
+      <p><strong>GrapheneOS Hardened Phone</strong></p>
+      <img src="images/grapheneos-phone.jpg" alt="GrapheneOS Hardened Phone" style="max-width:300px; margin:1rem auto; display:block;">
+      <p>A de-Googled, privacy-first smartphone preloaded with GrapheneOS. Offered through The Cipher Sovereign Commerce Capsule.</p>
+      <p>
+        <a href="https://affiliate-link-here.com" rel="nofollow sponsored" target="_blank">
+          🔗 Secure Affiliate Link
+        </a>
+      </p>
+    </section>
+
+    <section>
       <h2>Coming Soon</h2>
-      <p>The Commerce Capsule will feature privacy-first products, encrypted coaching tools, and sovereign commerce flows.</p>
+      <p>More privacy-first products, encrypted coaching tools, and sovereign commerce flows will be added here.</p>
     </section>
   </main>
 
