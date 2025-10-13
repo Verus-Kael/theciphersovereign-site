@@ -16,64 +16,103 @@
   <link rel="icon" type="image/png" href="fusion-sigil.png">
 
   <style>
+    /* ────────────────────────────────
+       Base Layout & Typography
+    ───────────────────────────────── */
     body {
       background-color: #0f0f0f;
       color: #e0e0e0;
       font-family: sans-serif;
       margin: 0;
-      padding: 0;
+      padding: 2rem;
       text-align: center;
     }
-    header {
-      padding: 2rem 1rem 1rem;
+
+    img {
+      max-width: 300px;
+      margin-bottom: 2rem;
     }
-    header img {
-      max-width: 100px;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
     }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    /* ────────────────────────────────
+       Navigation Bar
+    ───────────────────────────────── */
+    nav {
+      background-color: #1a1a1a;
+      border-bottom: 1px solid #333;
+      padding: 0.8rem 0;
+      display: flex;
+      justify-content: center;
+    }
+
     nav ul {
       list-style: none;
       display: flex;
-      justify-content: center;
       gap: 2rem;
-      padding: 0.8rem;
-      background-color: #1a1a1a;
-      border-bottom: 1px solid #333;
       margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
     }
+
     nav a {
       color: #00ffe0;
       text-decoration: none;
       font-weight: bold;
     }
+
     nav a:hover {
       color: #00cbbd;
     }
-    h1 {
-      font-size: 2rem;
-      margin: 1rem 0;
-    }
-    ul {
+
+    /* ────────────────────────────────
+       Capsule Index List
+    ───────────────────────────────── */
+    main ul {
       list-style: none;
       padding: 0;
       margin: 2rem auto;
       max-width: 600px;
+      text-align: left;
     }
-    li {
+
+    main li {
       margin: 1rem 0;
     }
+
+    /* ────────────────────────────────
+       Links & Footer
+    ───────────────────────────────── */
     a {
       color: #00ffe0;
       text-decoration: none;
     }
+
     a:hover {
       color: #00cbbd;
     }
+
     footer {
       margin-top: 3rem;
-      padding: 1rem;
       font-size: 0.9rem;
       color: #888;
       border-top: 1px solid #333;
+      padding-top: 1rem;
     }
   </style>
 </head>
@@ -97,14 +136,14 @@
 
   <main>
     <ul>
+      <li><a href="about-verus-kael.html">About Verus Kael</a></li>
+      <li><a href="personal-development.html">1:1 Personal Development</a></li>
       <li><a href="leadership-coaching.html">Leadership Coaching</a></li>
       <li><a href="wellness-coaching.html">Wellness Coaching</a></li>
-      <li><a href="somatic-therapy.html">Somatic Therapy</a></li>
       <li><a href="emotional-intelligence-coaching.html">Emotional Intelligence Coaching</a></li>
+      <li><a href="somatic-therapy.html">Somatic Therapy</a></li>
       <li><a href="sovereign-rituals.html">Sovereign Rituals</a></li>
       <li><a href="somatic-counselling.html">Somatic Counselling</a></li>
-      <li><a href="personal-development.html">1:1 Personal Development</a></li>
-      <li><a href="about-verus-kael.html">About Verus Kael</a></li>
     </ul>
   </main>
 
@@ -112,5 +151,6 @@
     <p>No cookies. No compromise. Privacy is the protocol. — The Cipher Sovereign</p>
   </footer>
 
+  <script src="capsule.js"></script>
 </body>
 </html>
