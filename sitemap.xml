@@ -9,81 +9,33 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Leadership Coaching -->
+  <!-- Capsule Index -->
   <url>
-    <loc>https://theciphersovereign.com/leadership-coaching</loc>
+    <loc>https://theciphersovereign.com/capsules.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Wellness Coaching -->
+  <!-- Contact Capsule -->
   <url>
-    <loc>https://theciphersovereign.com/wellness-coaching</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- 1:1 Personal Development -->
-  <url>
-    <loc>https://theciphersovereign.com/personal-development</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Emotional Intelligence Coaching -->
-  <url>
-    <loc>https://theciphersovereign.com/emotional-intelligence-coaching</loc>
+    <loc>https://theciphersovereign.com/contact.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Somatic Leadership -->
+  <!-- Legacy Capsule -->
   <url>
-    <loc>https://theciphersovereign.com/somatic-leadership</loc>
+    <loc>https://theciphersovereign.com/legacy.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Sovereign Rituals -->
+  <!-- Commerce Capsule -->
   <url>
-    <loc>https://theciphersovereign.com/sovereign-rituals</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Counselling -->
-  <url>
-    <loc>https://theciphersovereign.com/counselling</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Therapy -->
-  <url>
-    <loc>https://theciphersovereign.com/therapy</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Somatic Counselling -->
-  <url>
-    <loc>https://theciphersovereign.com/somatic-counselling</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Somatic Therapy -->
-  <url>
-    <loc>https://theciphersovereign.com/somatic-therapy</loc>
+    <loc>https://theciphersovereign.com/commerce.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -91,26 +43,74 @@
 
   <!-- GrapheneOS Affiliate Page -->
   <url>
-    <loc>https://theciphersovereign.com/grapheneos</loc>
+    <loc>https://theciphersovereign.com/grapheneos.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Privacy Gear Shop -->
-  <url>
-    <loc>https://theciphersovereign.com/shop</loc>
-    <lastmod>2025-10-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- About Verus Kael -->
   <url>
-    <loc>https://theciphersovereign.com/verus-kael</loc>
+    <loc>https://theciphersovereign.com/about-verus-kael.html</loc>
     <lastmod>2025-10-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- 1:1 Personal Development -->
+  <url>
+    <loc>https://theciphersovereign.com/personal-development.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Leadership Coaching -->
+  <url>
+    <loc>https://theciphersovereign.com/leadership-coaching.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Wellness Coaching -->
+  <url>
+    <loc>https://theciphersovereign.com/wellness-coaching.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Emotional Intelligence Coaching -->
+  <url>
+    <loc>https://theciphersovereign.com/emotional-intelligence-coaching.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Somatic Therapy -->
+  <url>
+    <loc>https://theciphersovereign.com/somatic-therapy.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Somatic Counselling -->
+  <url>
+    <loc>https://theciphersovereign.com/somatic-counselling.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Sovereign Rituals -->
+  <url>
+    <loc>https://theciphersovereign.com/sovereign-rituals.html</loc>
+    <lastmod>2025-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
